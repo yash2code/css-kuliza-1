@@ -15,18 +15,56 @@
     background-color: blanchedalmond;
     display: flex;
      flex-direction: column; 
-    justify-content: space-around;
+    justify-content: space-between;
     border: 7px solid saddlebrown;
-   flex: 3;
+    flex: 3;
 }
 
 
 
 .head{
-   /*  flex: 1; */
+    display: flex;
     background-color: blueviolet;
     border: 7px solid saddlebrown;
+    align-items: center;
+    /* justify-content: space-around; */
+} 
+
+  .head > * {
+    flex:1;
+}  
+
+.bellIcon {
+  background-image: url('./icons.png');
+  background-position: -949px -539px; 
+  width: 31px;
+  height: 37px;
 }
+
+.buildIcon {
+    background-image: url('./icons.png');
+    background-position: -425px -145px; 
+    width: 80px;
+    height: 76px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    flex:5;
+}
+
+.right-head{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .stats{
     background-color: burlywood;
