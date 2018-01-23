@@ -12,7 +12,7 @@
 }
 
 .right{
-    background-color: blanchedalmond;
+   
     display: flex;
      flex-direction: column; 
     justify-content: space-between;
@@ -24,7 +24,6 @@
 
 .head{
     display: flex;
-    background-color: blueviolet;
     align-items: center;
 } 
 
@@ -33,10 +32,10 @@
 }  
 
 .bellIcon {
-  background-image: url('./icons.png');
-  background-position: -949px -539px; 
-  width: 31px;
-  height: 37px;
+    background-image: url('./icons.png');
+    background-position: -1041px -544px; 
+    width: 31px;
+    height: 31px;
 }
 
 .buildIcon {
@@ -55,6 +54,21 @@
     zoom: 0.5;
 }
 
+.arrow-icon{
+    background-image: url('./icons.png');
+    background-position: -72px -45px; 
+    width: 32px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+.arrow{
+    display: flex;
+   /*  justify-content: flex-start; */
+    
+    
+}
+
 .heading{
     display: flex;
     align-items: center;
@@ -64,15 +78,28 @@
 .right-head{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side > * {
+    flex:0;
 }
 
 .name{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    flex-wrap: wrap;
     padding-left:5px;
+    
+}
+
+.name > * {
+    flex: 1;
 }
 
 .stats-head {
@@ -88,7 +115,7 @@
 }
 
 .company{
-    font-size: 15px;
+    font-size: 12px;
     margin:0;
 }
 
@@ -101,6 +128,14 @@
 }
 
 .logout{
+    margin: 0;
+}
+
+.fix{
+    margin: 0;
+}
+
+.equity-h{
     margin: 0;
 }
 
@@ -139,9 +174,44 @@
     color:red;
 }
 
+.fixamIcon{
+    background-image: url('./icons.png');
+    background-position: -66px -563px; 
+    width: 46px;
+    height: 34px;
+}
+
+.eqIcon{
+    background-image: url('./icons.png');
+    background-position: -132px -564px; 
+    width: 54px;
+    height: 33px;
+}
+
 .box{
     background-color: hotpink;
     border: 10px solid saddlebrown;
+}
+
+.nav{
+    display: flex;
+    background-color: darkmagenta;
+    align-items: center;
+    
+}
+
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .footer{
