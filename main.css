@@ -25,9 +25,7 @@
 .head{
     display: flex;
     background-color: blueviolet;
-    border: 7px solid saddlebrown;
     align-items: center;
-    /* justify-content: space-around; */
 } 
 
   .head > * {
@@ -46,40 +44,107 @@
     background-position: -425px -145px; 
     width: 80px;
     height: 76px;
+     zoom:0.5;
+}
+
+.amountIcon {
+    background-image: url('./icons.png');
+    background-position: -1048px -252px; 
+    width: 72px;
+    height: 60px;
+    zoom: 0.5;
 }
 
 .heading{
     display: flex;
     align-items: center;
-    flex:5;
+    flex:3;
 }
 
 .right-head{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .name{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left:5px;
 }
 
+.stats-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.amount{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.company{
+    font-size: 15px;
+    margin:0;
+}
+
+.amount-inv{
+    margin: 0;
+}
+
+.am-value{
+    margin: 0;
+}
+
+.logout{
+    margin: 0;
+}
 
 .stats{
+    display: flex;
     background-color: burlywood;
-    border: 7px solid saddlebrown;
-    /* flex: 2; */
+    align-items: center;
+    justify-content: center;
+}
+
+.stats > * {
+    flex: 1;
+}
+
+.profitIcon{
+    background-image: url('./icons.png');
+    background-position: -1136px -247px; 
+    width: 54px;
+    height: 68px;
+    zoom:0.5;
+}
+
+.walletIcon{
+    background-image: url('./icons.png');
+    background-position: -832px -259px; 
+    width: 41px;
+    height: 45px;
+    zoom:0.8;
+}
+
+.withdrawIcon{
+    background-image: url('./icons.png');
+    background-position: -460px -353px; 
+    width: 37px;
+    height: 34px;
+    color:red;
 }
 
 .box{
     background-color: hotpink;
-   /*  flex:6; */
-   border: 10px solid saddlebrown;
+    border: 10px solid saddlebrown;
 }
 
 .footer{
      background-color: forestgreen;
-   /*  flex:6; */
-   border: 10px solid saddlebrown;
+     border: 10px solid saddlebrown;
 }
